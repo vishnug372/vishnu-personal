@@ -1,6 +1,8 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     color: #2D3142;
+    background-image: linear-gradient(to right, rgb(13, 175, 250), rgb(206, 27, 206));
+
 }
 
 nav ul li{
@@ -27,14 +29,17 @@ nav ul li:hover{
 
 #hero{
     display: flex;
+    gap: 5rem;
     justify-content: space-around;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    margin-right: 4rem;
 }
 
 img{
     border-radius: 20%;
     border-color: black;
+    margin: 3rem;
 
 }
 hr{
@@ -44,6 +49,7 @@ hr{
 
 h2{
     margin-left: auto;
+    text-align: center;
 }
 
 a {
@@ -52,4 +58,18 @@ a {
 
 a:hover{
     color: red;
+}
+
+#Links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.link{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
 }
